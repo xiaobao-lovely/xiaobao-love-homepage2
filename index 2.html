@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>宝宝的恋爱小窝</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Comic Sans MS", "cursive";
+            background: url('https://i.imgur.com/o0QwZDt.png') repeat;
+            color: #444;
+            text-align: center;
+            padding: 2em;
+        }
+        h1 {
+            color: #ff69b4;
+            font-size: 2.8em;
+            text-shadow: 1px 1px 2px #fff;
+        }
+        .box {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 1.5em;
+            border-radius: 20px;
+            box-shadow: 0 0 12px #f8cdda;
+            max-width: 600px;
+            margin: 2em auto;
+            position: relative;
+        }
+        .bubble {
+            margin-top: 1.2em;
+            font-style: italic;
+            color: #888;
+            font-size: 1.1em;
+        }
+        .sticker {
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            image-rendering: pixelated;
+        }
+        .sticker-left {
+            left: -20px;
+            top: -20px;
+        }
+        .sticker-right {
+            right: -20px;
+            bottom: -20px;
+        }
+        .button {
+            margin-top: 1em;
+            background-color: #ffb6c1;
+            color: #fff;
+            padding: 0.7em 1.5em;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .button:hover {
+            background-color: #ff99aa;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎回家，宝宝 ♡</h1>
+    <div class="box">
+        <img src="https://i.imgur.com/C5QZksA.png" class="sticker sticker-left" />
+        <img src="https://i.imgur.com/DrCSyRE.png" class="sticker sticker-right" />
+        <p>这里是你可爱的贴贴空间！</p>
+        <p>正在准备好：</p>
+        <ul style="text-align:left; display: inline-block;">
+            <li>📋 每日清单（可点击）</li>
+            <li>⏳ 倒计时（考试/恋爱纪念）</li>
+            <li>🐾 像素小苍陪你互动</li>
+            <li>💌 情书角落</li>
+        </ul>
+        <div class="bubble">“你有乖乖想我吗？”</div>
+        <button class="button" onclick="alert('贴贴一下 ♡')">点我贴贴！</button>
+    </div>
+</body>
+</html>
